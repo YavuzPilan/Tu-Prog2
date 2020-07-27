@@ -16,5 +16,7 @@
 + wait() : wartet im Waiting Zustand bis er mit notify() oder notifyAll() geweckt wird.
 + join() : wartet im Waiting Zustand bis ein anderer Thread stirbt.
 + yield() : Thread versetzt sich selbst in den Ready zustand, damit andere Thread arbeiten können.
-+ notify(), notifyAll() : legt einen Thread vom Waiting oder Timed Waiting Zustand in den Runnable Zustand, aber nur wenn man wait() genutzt hat.
-
++ notify(), notifyAll() : kann nur in Locks verwendet werden um anderen Threads die, die Ressourcen benutzen wollen dran zu lassen.
++ interrupt() : weckt einen schlafenden Thread.
+##### Wenn keine Methode existiert: von wem wird der Thread in den jeweiligen Zustand versetzt?
+Die Threads werden vom Scheduler dan in die verschiedenen Zustände versetzt.
