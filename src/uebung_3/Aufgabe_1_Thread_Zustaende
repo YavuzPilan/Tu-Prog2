@@ -17,3 +17,4 @@
 + join() : wartet im Waiting Zustand bis ein anderer Thread stirbt.
 + yield() : Thread versetzt sich selbst in den Ready zustand, damit andere Thread arbeiten können.
 + notify(), notifyAll() : legt einen Thread vom Waiting oder Timed Waiting Zustand in den Runnable Zustand, aber nur wenn man wait() genutzt hat.
+
