@@ -1,0 +1,23 @@
+# Thread Speicher
+#### Was sind lokale Variablen?
+Diese Variablen existieren nur in der Methode oder Code Block in dem sie initialisiert wurden.
+#### Was sind Instanzvariable?
+Die Instanzvariable sind die Attribute einens Objekts.
+#### was sind Klassenvariablen?
+Variaben die auch ohne die Initialisierung der Klasse verwerdent werden können. Sie werden mit dem Kay Word 'static' verwendet
+#### was sind primitive Variablen?
+Ihre Datengroße ist eindeutig aufgebaut und sommit einfach gehalten. Sie besitzen keine Methoden und sind auch nicht alls klassen anzusehen
+folgende primitive Variablen gibt es:
++ byte 
++ short
++ int
++ long
++ char
++ float
++ double
++ boolean
+#### Was sind Referenzvariablen?
+Ist sowas wie ein Pfeil, dass auf ein Objekt zeigt.
+#### Was wird auf dem Heap gespeichert?
++ immer wenn was mit new angelegt wird
++ 
